@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.izertis.iadev.model.Reservation;
 import com.izertis.iadev.service.ReservationService;
 
-import java.time.LocalDate;
-
 @RestController
 @RequestMapping("/reservations")
 public class ReservationController {
